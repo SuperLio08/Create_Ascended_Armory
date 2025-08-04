@@ -2,6 +2,8 @@
   "item.create_ascended_armory.granite_alloy": "Granite Alloy",
   "item.create_ascended_armory.diorite_alloy": "Diorite Alloy",
   "item.create_ascended_armory.coke": "Coke",
+  "item.create_ascended_armory.compressed_coke": "Compressed Coke",
+  "item.create_ascended_armory.brass_slice": "Slice of Brass Cake",
 
 
   "block.create_ascended_armory.granite_alloy_block": "Block of Granite Alloy",

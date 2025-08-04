@@ -24,7 +24,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIORITEALLOY.get());
                         output.accept(ModBlocks.GRANITE_ALLOY_BLOCK.get());
                         output.accept(ModBlocks.DIORITE_ALLOY_BLOCK.get());
+                        output.accept(ModItems.BRASSSLICE.get());
+                        output.accept(ModItems.COKE.get());
+                        output.accept(ModItems.COMPRESSEDCOKE.get());
+
                     }).build());
+
+
 
 
     public static final Supplier<CreativeModeTab> ASCENDED_ARMORY_WEAPONS_TAB = CREATIVE_MODE_TAB.register("ascended_armory_weapons_tab",
