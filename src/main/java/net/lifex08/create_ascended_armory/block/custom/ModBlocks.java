@@ -1,4 +1,4 @@
-package net.lifex08.create_ascended_armory.block;
+package net.lifex08.create_ascended_armory.block.custom;
 
 import net.lifex08.create_ascended_armory.CreateAscendedArmory;
 import net.lifex08.create_ascended_armory.item.ModItems;
@@ -17,15 +17,15 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(CreateAscendedArmory.MODID);
 
-    public static final DeferredBlock<Block> GRANITE_BLOCK = registerBlock("granite_block",
+    public static final DeferredBlock<Block> GRANITE_ALLOY_BLOCK = registerBlock("granite_alloy_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5.0f, 6.0f)
+                    .strength(1.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 
     public static final DeferredBlock<Block> DIORITE_ALLOY_BLOCK = registerBlock("diorite_alloy_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5.0f, 6.0f)
+                    .strength(1.5f, 6.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 

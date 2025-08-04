@@ -1,8 +1,12 @@
 {
   "item.create_ascended_armory.granite_alloy": "Granite Alloy",
   "item.create_ascended_armory.diorite_alloy": "Diorite Alloy",
+  "item.create_ascended_armory.coke": "Coke",
 
 
-  "block.create_ascended_armory.granite_block": "Block of Granite Alloy",
-  "block.create_ascended_armory.diorite_alloy_block": "Block of Diorite Alloy"
+  "block.create_ascended_armory.granite_alloy_block": "Block of Granite Alloy",
+  "block.create_ascended_armory.diorite_alloy_block": "Block of Diorite Alloy",
+
+  "creativetab.create_ascended_armory.ascended_armory_ingredients": "Ascended Armory Ingredients",
+  "creativetab.create_ascended_armory.ascended_armory_weapons": "Ascended Armory Weapons"
 }

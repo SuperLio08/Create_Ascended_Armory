@@ -1,6 +1,7 @@
 package net.lifex08.create_ascended_armory;
 
-import net.lifex08.create_ascended_armory.block.ModBlocks;
+import net.lifex08.create_ascended_armory.block.custom.ModBlocks;
+import net.lifex08.create_ascended_armory.item.ModCreativeModeTabs;
 import net.lifex08.create_ascended_armory.item.ModItems;
 import org.slf4j.Logger;
 
@@ -88,6 +89,8 @@ public class CreateAscendedArmory
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -121,7 +124,7 @@ public class CreateAscendedArmory
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.GRANITE_BLOCK);
+            event.accept(ModBlocks.GRANITE_ALLOY_BLOCK);
             event.accept(ModBlocks.DIORITE_ALLOY_BLOCK);
         }
     }

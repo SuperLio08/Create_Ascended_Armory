@@ -17,6 +17,24 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+
+    flatDir{
+        dirs 'libs'
+    }
+
+    maven {
+        url = 'https://maven.tterrag.com/'
+    }
+
+    maven {
+        url = 'https://maven.neoforged.net/releases'
+    }
+
+    maven {
+        url = "https://maven.createmod.net"
+    }
+    // Create, Ponder, Flywheel
+
     mavenLocal()
 }
 
@@ -112,6 +130,10 @@ configurations {
 }
 
 dependencies {
+    implementation files('libs/create-1.21.1-6.0.6.jar')
+
+
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
